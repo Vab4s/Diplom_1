@@ -1,7 +1,7 @@
 import pytest
 import allure
 from praktikum.bun import Bun
-from helpers.create_bun_object import create_bun
+from helpers.create_objects import create_bun
 
 
 @allure.story('Проверка класса Bun')

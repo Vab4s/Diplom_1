@@ -1,7 +1,7 @@
 import allure
 from praktikum.burger import Burger
 from unittest.mock import Mock, patch
-from helpers.create_burger_object import create_burger
+from helpers.create_objects import create_burger
 
 
 @allure.story('Проверка класса Burger')
